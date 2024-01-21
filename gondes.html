@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <style>
+    .custom-bg {
+    background-color: #750E21
+}
+.inner-container-bg {
+    background-color: #F0EEED;
+    padding: 20px;
+}.allura-regular {
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* .btnDetail {
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  } 
+  .btnDetail:hover {
+    transform: scale(1.1);
+    background-color: #ffc107;
+} */
+
+
+/* .card {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+}
+
+.card-body {
+    flex: 1; 
+}
+
+.card {
+    height: 100%;} */
+
+
+/*batas*/
+.kanan-img {
+    float: right;
+    margin-right: 10px;
+}
+.container-makanan1{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.container-makanan2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.card{
+    width: 18rem;
+}
+.img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.card-title, .card-text{
+    text-align: center;
+}
+
+.rating{
+    color: orange;
+    margin-top: 3px;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.list-group-item{
+    color: black;
+    /* font-weight: bold; */
+    text-align: center;
+}
+.about{
+    background-color: #201f1f;
+    text-align: center;
+    padding: 4px 4px;
+}
+    </style>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gondes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+
+  <body class="custom-bg">
+    <div class="container border mb-4 mt-4 rounded-3 shadow bg-white">
+        <div class="inner-container-bg">
+    <!--Bar-->
+        <nav class="d-md-flex p-4">
+          <div class="allura-regular"><h1>Gondes</h1></div>
+        <div class="ms-auto my-auto">
+            <ul class="list-inline m-0">
+                <li class="list-inline-item mx-md-3"><a href="#Makanan" class="text-decoration-none text-dark fw-bold">Makanan</a></li>
+                <li class="list-inline-item mx-md-3"><a href="#Minuman" class="text-decoration-none text-dark fw-bold">Minuman</a></li>
+                <li class="list-inline-item mx-md-3"><a href="Jelajah%20Rasa.html" class="text-decoration-none text-dark fw-bold">KEMBALI</a></li>
+            </ul>
+        </div>
+        </nav>
+
+        <!--Banner-->
+    <div class="px-4 mb-4">
+        <img src="Images/Gondes/GondesLogo.png" style="width: 10rem;" height="150">
+    </div>
+
+    <!--table-->
+    <div class="d-flex justify-content-end mb-3">
+      <table border="0">
+        <tr>
+          <td>Jam Buka:</td>
+          <td class="text-end">10.00 - 21.00 </td>
+        </tr>
+        <tr>
+          <td>Order On:</td>
+          <td><img src="Images/LogoToko.png" width="60px" height="60px"><img src="Images/GrabFood.png" width="60px" height="60px"></td>
+          <td><img src="Images/GoFood.png" width="60px" height="60px"></td>
+        </tr>
+      </table>
+    </div>
+
+    <h4 id="Makanan">Makanan</h4>
+    <!--Makanan-->
+    <div class="container-makanan2">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card" style="width: 18rem;">
+            <img src="Images/Gondes/paket ayam.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Paket Hemat Geprek</h5>
+              <p class="card-text">Ayam yang digeprek dengan cabai + Es Teh Manis</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Rp 18.000,-</li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="col-md-6">
+          <div class="card" style="width: 18rem;">
+            <img src="Images/Gondes/paket mie.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Paket Hemat Mie Geprek</h5>
+              <p class="card-text">Ayam yang digeprek dengan cabai + Mie Goreng + Es Teh Manis</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Rp 19.000,-</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- <div class="container-makanan2">
+      <div class="row">
+      <div class="card" style="width: 18rem;">
+        <img src="Images/Gondes/paket ayam.jpg" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title">Paket Hemat Geprek</h4>
+          <p class="card-text">Ayam yang digeprek dengan cabai + Es Teh Manis</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Rp 18.000,-</li>
+        </ul> 
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="c" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Paket Hemat Mie Geprek</h5>
+          <p class="card-text">Ayam yang digeprek dengan cabai + Mie Goreng + Es Teh Manis</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Rp 19.000,-</li>
+        </ul> 
+        </div>
+
+    </div>
+    <br>
+    <br> -->
+
+    <!-- Minuman -->
+    <h4 id="Minuman">Minuman</h4>
+    <div class="container-makanan2">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card" style="width: 18rem;">
+            <img src="Images/Gondes/es teh.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Teh (Dingin/Panas)</h5>
+              <p class="card-text">Es teh ukuran besar yang cocok dikombinasikan dengan ayam geprek</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Rp 5.000,-</li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="col-md-6">
+          <div class="card" style="width: 18rem;">
+            <img src="Images/Gondes/es_jeruk.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Jeruk (Dingin/Panas)</h5>
+              <p class="card-text">Es teh ukuran besar yang cocok dikombinasikan dengan ayam geprek</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Rp 5.000,-</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- <h4 id="Minuman">Minuman</h4>
+    <div class="container-makanan1">
+        <div class="card" style="width: 18rem;">
+          <img src="Images/Gondes/es teh.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Teh (Dingin/Panas)</h5>
+            <p class="card-text">Es teh ukuran besar yang cocok dikombinasikan dengan ayam geprek</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Rp 5.000,-</li>
+          </ul> 
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="Images/Gondes/es_jeruk.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Jeruk (Dingin/Panas)</h5>
+              <p class="card-text">Es teh ukuran besar yang cocok dikombinasikan dengan ayam geprek</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Rp 5.000,-</li>
+            </ul> 
+            </div>
+    </div>
+    <br> -->
+
+    <!-- CONTACT-->
+    <div id="tentang" class="px-4 py-4 bg-secondary text-center">
+      <div class="mx-auto w-75">
+        <h3 class="text-white">RESTAURANT CONTACT</h3>
+        <p class="text-center text-white">+62 821-2121-4145</p>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

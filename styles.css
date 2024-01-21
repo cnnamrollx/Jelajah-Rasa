@@ -1,0 +1,90 @@
+.custom-bg {
+    background-color: #750E21
+}
+.inner-container-bg {
+    background-color: #F0EEED;
+    padding: 20px;
+}.allura-regular {
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* .btnDetail {
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  } 
+  .btnDetail:hover {
+    transform: scale(1.1);
+    background-color: #ffc107;
+} */
+
+
+/* .card {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+}
+
+.card-body {
+    flex: 1; 
+}
+
+.card {
+    height: 100%;} */
+
+
+/*batas*/
+.kanan-img {
+    float: right;
+    margin-right: 10px;
+}
+.container-makanan1{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.container-makanan2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.card{
+    width: 18rem;
+}
+.img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.card-title, .card-text{
+    text-align: center;
+}
+
+.rating{
+    color: orange;
+    margin-top: 3px;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.list-group-item{
+    color: black;
+    /* font-weight: bold; */
+    text-align: center;
+}
+.about{
+    background-color: #201f1f;
+    text-align: center;
+    padding: 4px 4px;
+}
